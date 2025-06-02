@@ -1,0 +1,66 @@
+/* src/components/ResultsDisplay.module.css */
+.resultsContainer {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px dashed var(--border-color);
+  border-radius: 5px;
+  background-color: var(--light-background);
+}
+
+.feedbackError {
+  color: var(--primary-color);
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #ffe0e0;
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+}
+
+.groupTitleDisplay, .resultsTitle {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: var(--secondary-color);
+}
+
+.pairingsList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.pairingItem {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+.pairingItem:last-child {
+  border-bottom: none;
+}
+
+.noResults {
+  color: var(--text-color);
+  text-align: center;
+}
+
+.copyHint {
+    font-size: 0.9em;
+    color: var(--text-color);
+    margin-top: 15px;
+    text-align: center;
+}
+
+.pairingItem:nth-child(even) {
+  background-color: #f0f0f0; /* Subtle striping */
+}
+.feedbackError {
+  /* Existing styles are good, maybe adjust padding/margin */
+  border-left: 5px solid red; /* Emphasize it's an error */
+}
+.feedbackSuccess { /* If you add success messages */
+    color: green;
+    background-color: #e0ffe0;
+    border: 1px solid green;
+    border-left: 5px solid green;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}

@@ -1,0 +1,11 @@
+:root {
+  --primary-color: #d9534f; /* Festive Red */
+  --secondary-color: #5cb85c; /* Green */
+  --accent-color: #f0ad4e; /* Orange */
+  --text-color: #333;
+  --background-color: #fff;
+  --border-color: #ccc;
+  --light-background: #f9f9f9;
+}
+
+body { margin: 0; font-family: system-ui, sans-serif; }

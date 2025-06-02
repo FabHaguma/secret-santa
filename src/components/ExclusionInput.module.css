@@ -1,0 +1,15 @@
+/* src/components/NameInput.module.css */
+.textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 1em;
+}
+.hint {
+  font-size: 0.85em;
+  color: var(--text-color);
+  margin-top: 5px;
+}
